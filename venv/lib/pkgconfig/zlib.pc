@@ -1,0 +1,13 @@
+prefix=/mnt/c/Users/anshuman.panda/Desktop/end-to-end-ml/venv
+exec_prefix=/mnt/c/Users/anshuman.panda/Desktop/end-to-end-ml/venv
+libdir=/mnt/c/Users/anshuman.panda/Desktop/end-to-end-ml/venv/lib
+sharedlibdir=/mnt/c/Users/anshuman.panda/Desktop/end-to-end-ml/venv/lib
+includedir=/mnt/c/Users/anshuman.panda/Desktop/end-to-end-ml/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
